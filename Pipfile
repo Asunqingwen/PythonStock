@@ -1,11 +1,22 @@
 [[source]]
 name = "pypi"
-url = "https://pypi.org/simple"
+#url = "https://pypi.org/simple"
+#url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+#url = "https://pypi.doubanio.com/simple/"
+#url = "https://mirrors.163.com/pypi/simple/"
+url = "https://mirrors.aliyun.com/pypi/simple/"
+#url = "https://mirrors.cloud.tencent.com/pypi/simple"
 verify_ssl = true
 
 [dev-packages]
 
 [packages]
+pandas = "*"
+numpy = "*"
+tushare = "*"
+sqlalchemy = "*"
+mysqlclient = "*"
+xlrd = "*"
 
 [requires]
 python_version = "3.7"
